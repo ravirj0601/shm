@@ -1,0 +1,6 @@
+
+Compile Code :-
+    Cpp:- g++ writer.cpp -o writer -lrt -pthread
+          g++ -shared -fPIC -I/usr/include/python3.8 -I/usr/include/boost shared_memory_module.cpp -o shared_memory_module.so -lboost_python38 -lrt
+    Python:-  python3 reader.py
+

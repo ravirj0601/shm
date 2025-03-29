@@ -1,0 +1,7 @@
+Compile Code :-
+    Cpp:- g++ writer.cpp -o writer -lrt
+    Python:-  python3 reader_os.py
+              python3 reader_posix.py  
+
+You can access the shared memory in pyhon but only in c++.
+Explored this one but it does not have a proper documentation.

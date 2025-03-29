@@ -1,0 +1,10 @@
+Compile Code :-
+    Cpp:- g++ writer.cpp -o writer -lrt
+    Python:-  python3 reader_os.py
+              python3 reader_posix.py  
+
+
+The memory allocation is same 
+means you have to store in same way like give the size of each variable.
+and for dynamic size you have to store that size before and do 
+proper structuring.

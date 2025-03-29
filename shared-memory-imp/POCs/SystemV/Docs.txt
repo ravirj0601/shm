@@ -1,0 +1,28 @@
+Compile Code :-
+    Cpp:- g++ writer.cpp -o writer
+    Python:- python3 reader.py
+
+Creating shared memory,
+    1. Key is important for all the program who is going to access
+    2. Data size should be fixed. And other program should know the structure of the memory
+        so program can extract.
+
+This will only only with static data type means every data type should be fixed length 
+and does not change on run time.
+example :- 
+    storing cpp string will make problem
+    
+    solution:- we have to store in memory like 
+        {sizeOfString}{string}
+    so that we can get how much data we have to read 
+
+example:-
+    struct
+    {
+        int a; //4 byte
+        long b; //8 byte
+        double c; //8 byte
+        int sizeOfString; // store string s size 
+        string s;  // dynamic
+    }
+

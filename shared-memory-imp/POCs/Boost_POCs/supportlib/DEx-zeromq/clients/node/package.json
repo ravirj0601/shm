@@ -1,0 +1,15 @@
+{
+  "name": "node_shmem",
+  "version": "1.0.0",
+  "description": "Node based client for ZeroMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/test/index",
+    "start": "node src/index"
+  },
+  "author": "Ashok paramasivam B <ashokb@planystech.com>",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "5.2.0"
+  }
+}
